@@ -108,6 +108,6 @@ public class EffTimedClientSideHolo extends Effect {
             public void run() {
                 hologram.delete();
             }
-        }, time.getSingle(evt).getTicks());
+        }, time.getSingle(evt).getTicks_i());
     }
 }
